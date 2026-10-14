@@ -50,6 +50,7 @@ When this skill is provided to any AI Assistant (Antigravity, Claude, ChatGPT, C
    - Photographic, clean, textless WebP images (800x533 px, <100 KB).
    - Zero typography, zero post title overlays, zero watermarks.
 4. **THEMIXIFY MANDATORY CORE SETTINGS:**
+   - **Branding Logo (Mandatory):** Logo must ALWAYS be uploaded under **`Themixify -> General -> Branding -> Logo`** (`Choose` button). Never leave empty. Set `Logo height (px)` to `56px` (or `64px–80px` as needed). Logo MUST be transparent high-contrast WebP/PNG.
    - Site Width: 1400px | Sidebar Width: 320px.
    - Sticky trending-posts bar = ON (marquee auto-scroll).
    - Single post featured image = OFF.
@@ -59,3 +60,8 @@ When this skill is provided to any AI Assistant (Antigravity, Claude, ChatGPT, C
    - 100% unique persona, unique name, distinct headshot per site. Format: WebP, <40 KB.
 6. **AUDIT-FIRST (NON-DESTRUCTIVE) INTEGRATION POLICY:**
    - Always audit existing GA4 Measurement IDs and GSC verification before touching. Never overwrite working analytics.
+7. **ABSOLUTE BAN ON CROSS-SITE BANNER REUSE:**
+   - Never copy hero slider banners or category images between sites. Every domain requires 100% unique, newly curated photographic WebP images (<100 KB).
+8. **MANDATORY LOGO CONTRAST & 5-POINT FRONTEND QA AUDIT:**
+   - No white/light logo fonts on light headers. Logos must have crisp dark contrast and transparent canvas.
+   - Leo must complete a 5-point visual inspection of the live site (Logo, Menu, Slider, Categories, Footer) before marking any setup complete.
